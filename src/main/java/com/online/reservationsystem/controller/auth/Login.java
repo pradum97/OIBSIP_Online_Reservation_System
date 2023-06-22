@@ -1,7 +1,6 @@
 package com.online.reservationsystem.controller.auth;
 
 import com.online.reservationsystem.CustomDialog;
-import com.online.reservationsystem.ImageLoader;
 import com.online.reservationsystem.Main;
 import com.online.reservationsystem.database.DBConnection;
 import com.online.reservationsystem.model.AuthInformation;
@@ -9,24 +8,18 @@ import com.online.reservationsystem.util.OptionalMethod;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
-import javafx.geometry.Insets;
 import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
-import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
-import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.HBox;
 
-import java.io.InputStream;
 import java.net.URL;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.ResourceBundle;
 
 public class Login implements Initializable {

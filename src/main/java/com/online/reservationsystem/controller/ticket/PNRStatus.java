@@ -1,25 +1,18 @@
 package com.online.reservationsystem.controller.ticket;
 
 import com.online.reservationsystem.CustomDialog;
-import com.online.reservationsystem.ImageLoader;
-import com.online.reservationsystem.Main;
 import com.online.reservationsystem.database.DBConnection;
 import com.online.reservationsystem.util.OptionalMethod;
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Alert;
-import javafx.scene.control.ButtonType;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
-import javafx.scene.image.ImageView;
-import javafx.stage.Modality;
 
 import java.net.URL;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.Optional;
 import java.util.ResourceBundle;
 
 public class PNRStatus implements Initializable {

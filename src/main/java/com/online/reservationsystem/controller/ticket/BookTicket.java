@@ -6,7 +6,6 @@ import com.online.reservationsystem.model.BookingModel;
 import com.online.reservationsystem.util.OptionalMethod;
 import javafx.application.Platform;
 import javafx.collections.FXCollections;
-import javafx.collections.ObservableArray;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;

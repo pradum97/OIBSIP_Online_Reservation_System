@@ -1,7 +1,5 @@
 package com.online.reservationsystem.model;
 
-import java.io.InputStream;
-
 public class AuthInformation {
 
     private final int userId;

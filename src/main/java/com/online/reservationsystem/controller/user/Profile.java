@@ -2,14 +2,11 @@ package com.online.reservationsystem.controller.user;
 
 import com.online.reservationsystem.CustomDialog;
 import com.online.reservationsystem.Main;
-import com.online.reservationsystem.controller.auth.Login;
 import com.online.reservationsystem.database.DBConnection;
 import com.online.reservationsystem.model.AuthInformation;
 import com.online.reservationsystem.util.OptionalMethod;
 import javafx.application.Platform;
-import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
@@ -18,8 +15,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Objects;
 import java.util.ResourceBundle;
 
